@@ -3,7 +3,7 @@ import hero_image from "../Bharatintern images/main-pic-68043f7e0b9a77d65db913dd
 
 const Hero = () => {
   return (
-    <div className="mb-10">
+    <div className="mb-5">
       <div className="flex mt-20 text-blue-900">
         <p className="pl-40 pt-40 text-5xl ">
           Unlocking your potential with{" "}
@@ -15,7 +15,7 @@ const Hero = () => {
         </p>
         <img src={hero_image} alt="main" className="ml-40 mr-20 w-1/2" />
       </div>
-      <button className="ml-40 font-bold text-white bg-green-400  rounded p-3 w-40 hover:bg-purple-500">
+      <button className="ml-40 font-bold text-white bg-green-400 hover:border-green-400 rounded p-3 w-40 hover:bg-purple-500">
         Get Started
       </button>
     </div>
