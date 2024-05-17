@@ -2,6 +2,7 @@ import About from "./components/About";
 import Hero from "./components/Hero";
 import Main from "./components/Main";
 import Navbar from "./components/Navbar";
+import OnlineCommunity from "./components/OnlineCommunity";
 import OurFeatures from "./components/OurFeatures";
 import Section from "./components/Section";
 import SectionCard from "./components/SectionCard";
@@ -29,6 +30,9 @@ function App() {
       </div>
       <div className="features">
         <OurFeatures />
+      </div>
+      <div className="onlinecommunity">
+        <OnlineCommunity />
       </div>
     </div>
   );

@@ -8,7 +8,7 @@ import { PiTreeStructureThin } from "react-icons/pi";
 const Section = () => {
   return (
     <div className="flex p-3 pt-20 font-mono bg-gray-900">
-      <div className="p-10 border-dotted border-green-100 rounded hover:text-white border-2 mr-10 hover:bg-green-300 ">
+      <div className="ml-10 p-10 border-dotted border-green-100 rounded hover:text-white border-2 mr-10 hover:bg-green-300 ">
         <button className="px-5 py-5 rounded-full bg-green-900">
           <FaBarsProgress className="text-green-200 " />
         </button>
