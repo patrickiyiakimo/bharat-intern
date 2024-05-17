@@ -4,9 +4,10 @@ import { TbBracketsAngle } from "react-icons/tb";
 import { IoMdContacts } from "react-icons/io";
 import { PiTreeStructureThin } from "react-icons/pi";
 
+
 const Section = () => {
   return (
-    <div className="flex p-10 mr-10 ml-20 ">
+    <div className="flex p-5 mr-10 ml-20 mb-20">
       <div className="p-10 border-dotted border-green-400 rounded hover:text-white border-2 mr-10 hover:bg-green-300 ">
         <button className="px-5 py-5 rounded-full bg-green-300">
           <FaBarsProgress className="text-green-700 " />
