@@ -1,4 +1,5 @@
 import About from "./components/About";
+import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Main from "./components/Main";
 import Navbar from "./components/Navbar";
@@ -33,6 +34,9 @@ function App() {
       </div>
       <div className="onlinecommunity">
         <OnlineCommunity />
+      </div>
+      <div className="footer">
+        <Footer />
       </div>
     </div>
   );
