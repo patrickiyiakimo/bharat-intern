@@ -1,3 +1,4 @@
+import About from "./components/About";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Section from "./components/Section";
@@ -17,6 +18,9 @@ function App() {
       </div>
       <div className="sectioncard">
         <SectionCard />
+      </div>
+      <div className="about">
+        <About />
       </div>
     </div>
   );

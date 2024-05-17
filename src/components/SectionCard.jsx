@@ -5,10 +5,16 @@ import Image_three from "../Bharatintern images/msme-d17b99243eac2e92ec9654fbe3c
 
 const SectionCard = () => {
   return (
-    <div className="flex ">
-      <img src={Image_one} alt="one" className='w-28' />
-      <img src={Image_two} alt="two" className="w-28" />
-      <img src={Image_three} alt="three" className="w-28" />
+    <div className="flex pl-96 mb-20 mt-20">
+      <div>
+        <img src={Image_one} alt="one" className="w-28 bg-green-300 mr-36 " />
+      </div>
+      <div>
+        <img src={Image_two} alt="two" className="w-28 mr-36" />
+      </div>
+      <div>
+        <img src={Image_three} alt="three" className="w-28 mr-36" />
+      </div>
     </div>
   );
 }

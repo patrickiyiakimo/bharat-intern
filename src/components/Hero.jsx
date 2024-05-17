@@ -3,10 +3,10 @@ import hero_image from "../Bharatintern images/main-pic-68043f7e0b9a77d65db913dd
 
 const Hero = () => {
   return (
-    <div className="mb-5">
-      <div className="flex mt-20 text-blue-900">
+    <div className="mb-28">
+      <div className="flex mt-10 text-blue-900">
         <p className="pl-40 pt-40 text-5xl ">
-          Unlock your potential with{" "}
+          Unlock your potential with
           <span className="font-bold">Bharat Intern</span> <br />
           <span className="text-sm font-semibold text-blue-900">
             Our goal is to empower the next generation of tech leaders. Our
