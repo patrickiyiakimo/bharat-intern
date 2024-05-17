@@ -7,8 +7,8 @@ import { PiTreeStructureThin } from "react-icons/pi";
 
 const Section = () => {
   return (
-    <div className="flex p-5 mr-10 ml-20 mb-20">
-      <div className="p-10 border-dotted border-green-400 rounded hover:text-white border-2 mr-10 hover:bg-green-300 ">
+    <div className="flex p-3 mr-5 ml-20 mb-10">
+      <div className="p-10 border-dotted border-green-100 rounded hover:text-white border-2 mr-10 hover:bg-green-300 ">
         <button className="px-5 py-5 rounded-full bg-green-300">
           <FaBarsProgress className="text-green-700 " />
         </button>
@@ -21,11 +21,11 @@ const Section = () => {
         </p>
       </div>
 
-      <div className=" p-10 border-dotted border-pink-400 rounded hover:text-white border-2 mr-10 hover:bg-green-300 ">
+      <div className=" p-10 border-dotted border-pink-100 rounded hover:text-white border-2 mr-10 hover:bg-green-300 ">
         <button className="px-5 py-5 rounded-full bg-pink-300">
           <TbBracketsAngle className="" />
         </button>
-        <p className="font-semibold pt-5 hover:cursor-pointer text-lg text-blue-900 mr-10 pb-5">
+        <p className="font-semibold pt-5 hover:cursor-pointer text-lg text-blue-900 pb-5">
           Build Your Network
         </p>
         <p className=" text-blue-900 ">
@@ -33,11 +33,11 @@ const Section = () => {
           interested in the same thing
         </p>
       </div>
-      <div className=" p-10 border-dotted border-indigo-400 rounded hover:text-white border-2 mr-10 hover:bg-green-300 ">
+      <div className=" p-10 border-dotted border-indigo-100 rounded hover:text-white border-2 mr-10 hover:bg-green-300 ">
         <button className="px-5 py-5 rounded-full bg-indigo-300">
           <IoMdContacts className="" />
         </button>
-        <p className="font-semibold pt-5 hover:cursor-pointer text-lg text-blue-900 mr-10 pb-5">
+        <p className="font-semibold pt-5 hover:cursor-pointer text-lg text-blue-900  pb-5">
           Building Student Trust
         </p>
         <p className=" text-blue-900">
@@ -45,11 +45,11 @@ const Section = () => {
           valuable learning experiences
         </p>
       </div>
-      <div className="p-10 border-dotted border-orange-300 rounded hover:text-white border-2 mr-10 hover:bg-green-300 ">
+      <div className="p-10 border-dotted border-orange-100 rounded hover:text-white border-2 mr-10 hover:bg-green-300 ">
         <button className="px-5 py-5 rounded-full bg-orange-300">
           <PiTreeStructureThin />
         </button>
-        <p className="font-semibold pt-5 hover:cursor-pointer text-lg text-blue-900 mr-10 pb-5">
+        <p className="font-semibold pt-5 hover:cursor-pointer text-lg text-blue-900  pb-5">
           Structured Learning
         </p>
         <p className=" text-blue-900">
