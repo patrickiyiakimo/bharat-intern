@@ -4,7 +4,7 @@ import Bharat_logo from "../Bharatintern images/download.png";
 const Navbar = () => {
   return (
     <div className="sticky top-0 z-10 w-full">
-      <div className="flex pl-60 shadow-lg  font-semibold bg-gray-900 text-white space-x-10 px-20 pt-5 pb-5 space-x-6  top-0  w-full">
+      <div className="flex pl-60 shadow-lg fixed font-semibold bg-gray-900 text-white space-x-10 px-20 pt-5 pb-5 space-x-6  top-0 z-10 w-full">
         <img src={Bharat_logo} alt="Bharat logo" className="w-28 mr-96" />
         <p className="mt-3">Home</p>
         <p className="mt-3">About</p>

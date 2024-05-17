@@ -4,7 +4,7 @@ import hero_image from "../Bharatintern images/main-pic-68043f7e0b9a77d65db913dd
 const Hero = () => {
   return (
     <div className="pb-28">
-      <div className="flex pt-10 text-white bg-gray-900 font-mono">
+      <div className="flex pt-40 text-white bg-gray-900 font-mono">
         <p className="pl-20 pt-40 text-6xl ">
           Unlock your potential with 
            <span className="font-bold"> Bharat Intern</span> <br />
