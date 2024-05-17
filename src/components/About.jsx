@@ -4,11 +4,11 @@ import AboutText from "./AboutText";
 
 const About = () => {
   return (
-    <div className="bg-green-50 pb-20">
-      <div className="ml-20 text-2xl font-semibold mb-10 text-blue-900 pt-20">
+    <div className="bg-gray-900 pb-20">
+      <div className="ml-20 text-2xl font-mono font-semibold mb-10 text-white pt-20">
         About us
       </div>
-      <p className="text-blue-900 ml-20 mb-10 flex">
+      <p className="text-white ml-20 mb-10 font-mono flex">
         At Bharat Intern, we are passionate about empowering innovations that
         <br />
         shape a better future for businesses and individuals alike.

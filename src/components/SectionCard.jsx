@@ -5,7 +5,7 @@ import Image_three from "../Bharatintern images/msme-d17b99243eac2e92ec9654fbe3c
 
 const SectionCard = () => {
   return (
-    <div className="flex pl-96 mb-20 mt-20">
+    <div className="flex pl-96 pb-20 pt-20 bg-gray-900">
       <div>
         <img src={Image_one} alt="one" className="w-28 bg-green-300 mr-36 " />
       </div>
