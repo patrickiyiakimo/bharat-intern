@@ -7,9 +7,7 @@ const Hero = () => {
     <div className="pb-10 bg-gray-900">
       <div className="flex pt-40 text-white bg-gray-900 ">
         <p className="pl-20 pb-40 pt-40 text-5xl font-bold">
-          Unlock your potential with
-          <span className="text-blue-400">
-            Bharat Intern <br />
+          Unlock your potential with<span className="text-blue-400"> Bharat Intern <br />
           </span>
           <span className="text-2xl font-semibold">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque

@@ -11,6 +11,7 @@ import OurFeatures from "./components/OurFeatures";
 import Section from "./components/Section";
 import SectionCard from "./components/SectionCard";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import SignUp from "./components/SignUp";
 
 function App() {
   return (
@@ -28,6 +29,9 @@ function App() {
           </Route>
           <Route path="/apply">
             <Apply />
+          </Route>
+          <Route path="/signup">
+            <SignUp />
           </Route>
           <Route exact path="/">
             <div className="hero">

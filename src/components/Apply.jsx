@@ -6,6 +6,7 @@ import image_four from "../Bharatintern images/ad-84506a6c9d40392c7d743a2a4e4f85
 import image_five from "../Bharatintern images/fs-e46224840cdf6333df6a3709ad781138.png";
 import { IoArrowForwardCircleSharp } from "react-icons/io5";
 import Footer from "./Footer";
+import { Link } from "react-router-dom";
 
 const Apply = () => {
   return (
@@ -17,7 +18,7 @@ const Apply = () => {
         <div className=" overflow-hidden">
           <img src={image_one} alt="html" className="w-3/4 rounded" />
           <p className="bg-white text-gray-600 font-semibold px-3 py-3 mt-4 ml-30 rounded cursor-pointer hover:bg-green-400 hover:text-white w-64">
-            Web Development 
+            <Link to="/signup">Web Development</Link>
             <button className="ml-20">
               <IoArrowForwardCircleSharp className="" />
             </button>
@@ -26,7 +27,7 @@ const Apply = () => {
         <div>
           <img src={image_two} alt="html" className="w-3/4 rounded" />
           <p className="bg-white text-gray-600 px-3 py-3 mt-4 ml-30 font-semibold rounded cursor-pointer hover:bg-green-400 hover:text-white w-64">
-            Machine Learning
+            <Link to="/signup">Machine Learning</Link>
             <button className="ml-20">
               <IoArrowForwardCircleSharp className="" />
             </button>
@@ -35,7 +36,7 @@ const Apply = () => {
         <div>
           <img src={image_three} alt="html" className="w-3/4 rounded" />
           <p className="bg-white text-gray-600 px-3 py-3 mt-4 ml-30 rounded font-semibold cursor-pointer hover:bg-green-400 hover:text-white w-64">
-            Data Science
+            <Link to="/signup">Data Science</Link>
             <button className="ml-20">
               <IoArrowForwardCircleSharp className="" />
             </button>
@@ -44,7 +45,7 @@ const Apply = () => {
         <div>
           <img src={image_four} alt="html" className="w-3/4 rounded" />
           <p className="bg-white text-gray-600 px-3 py-3 mt-4 ml-30 rounded font-semibold cursor-pointer hover:bg-green-400 hover:text-white w-64">
-            App Development{" "}
+            <Link to="/signup">App Development</Link>
             <button className="ml-20">
               <IoArrowForwardCircleSharp className="" />
             </button>
@@ -53,7 +54,7 @@ const Apply = () => {
         <div>
           <img src={image_five} alt="html" className="w-3/4 rounded" />
           <p className="bg-white text-gray-600 px-3 py-3 mt-4 mb-20 ml-30 rounded font-semibold cursor-pointer hover:bg-green-400 hover:text-white w-64">
-            Full-Stack Web Developent
+            <Link to="/signup">Full-Stack Web Development</Link>
             <button className="ml-20">
               <IoArrowForwardCircleSharp className="" />
             </button>
