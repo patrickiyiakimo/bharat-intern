@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <div className="pb-28">
       <div className="flex pt-40 text-white bg-gray-900 font-mono">
-        <p className="pl-20 pt-40 text-6xl ">
+        <p className="pl-20 pb-40 pt-40 text-6xl ">
           Unlock your potential with 
            <span className="font-bold"> Bharat Intern</span> <br />
           <span className="text-xl font-semibold text-white ">
@@ -15,10 +15,11 @@ const Hero = () => {
         </p>
         <img src={hero_image} alt="main" className="ml-40 pb-40 mr-20 w-1/2" />
       </div>
-      <button className="ml-40 font-bold text-white bg-green-400 hover:border-green-400 rounded p-3 w-40 hover:bg-purple-500">
+      <button className="ml-40  font-bold text-white bg-green-400 hover:border-green-400 rounded p-3 w-40 hover:bg-purple-500">
         Get Started
       </button>
     </div>
+    
   );
 };
 

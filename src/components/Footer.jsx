@@ -1,4 +1,9 @@
 import React from "react";
+import { PiTelegramLogoLight } from "react-icons/pi";
+import { CiLinkedin } from "react-icons/ci";
+import { MdOutlineLocationOn } from "react-icons/md";
+import { MdOutlineMail } from "react-icons/md";
+import { CiYoutube } from "react-icons/ci";
 
 const Footer = () => {
   return (
@@ -7,13 +12,38 @@ const Footer = () => {
         <p className="font-semibold text-xl">Find More</p>
         <p className="font-semibold text-xl">Follow Us</p>
         <p className="font-semibold text-xl">Address</p>
-        <p>LinkedIn</p>
-        <p>Bhopal, Madhya Pradesh, India</p>
+        <p>
+          <button>
+            <CiLinkedin className="h-6 w-6"/>
+          </button>
+          LinkedIn
+        </p>
+        <p>
+          <button>
+            <MdOutlineLocationOn className="h-6 w-6"/>
+          </button>
+          Bhopal, Madhya Pradesh, India
+        </p>
         <p>About</p>
-        <p>Telegram</p>
-        <p>Email: bharatintern.info@gmail.com</p>
+        <p>
+          <button>
+            <PiTelegramLogoLight className="h-6 w-6"/>
+          </button>
+          Telegram
+        </p>
+        <p>
+          <button>
+            <MdOutlineMail className="h-6 w-6"/>
+          </button>
+          Email: bharatintern.info@gmail.com
+        </p>
         <p>Contact Us</p>
-        <p>YouTube</p>
+        <p>
+          <button>
+            <CiYoutube className="h-6 w-6"/>
+          </button>
+          YouTube
+        </p>
         <p>Apply</p>
       </div>
       <div className="bg-gray-600 p-10 text-white font-mono">
