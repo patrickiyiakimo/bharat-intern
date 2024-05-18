@@ -29,31 +29,31 @@ const OurFeatures = () => {
             </button>
             Email Notifications
           </p>
-          <p className="text-gray-400 font-mono">
+          <p className="text-white font-mono">
             The email notifications about important events, such as upcoming
             deadlines, new assignments, and changes to your schedule.
           </p>
         </div>
         <div className="mr-10 bg-gray-800 p-10 rounded  border-dotted border-2 border-blue-400">
           <p className="font-semibold text-2xl font-mono">
-            <button className="px-5 py-5 rounded-full bg-blue-400 mr-2">
+            <button className="px-5 py-5  rounded-full bg-blue-400 mr-2">
               <MdOutlineMailOutline />
             </button>
             Simple Interface
           </p>
-          <p className="text-gray-400 font-mono">
+          <p className="text-white font-mono">
             The simplicity of the interface makes it easy to use and navigate.
             The information is presented in a clear and concise way.
           </p>
         </div>
         <div className="ml-10 bg-gray-800 p-10 rounded  border-dotted border-2 border-pink-400">
           <p className="font-semibold text-2xl font-mono">
-            <button className="px-5 py-5 rounded-full bg-pink-400 mr-2">
+            <button className="px-5 py-5  rounded-full bg-pink-400 mr-2">
               <IoCubeOutline />
             </button>
             Large Community
           </p>
-          <p className="text-gray-400 font-mono">
+          <p className="text-white font-mono">
             We believe in networking to connect with other interns who are
             interested in the same things.
           </p>
@@ -65,7 +65,7 @@ const OurFeatures = () => {
             </button>
             Deadline Reminders
           </p>
-          <p className="text-gray-400 font-mono">
+          <p className="text-white font-mono">
             The reminders are sent to you in advance in our telegram channel and
             your email, so you have plenty of time to get your tasks done.
           </p>

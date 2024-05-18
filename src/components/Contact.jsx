@@ -7,18 +7,18 @@ import Footer from "./Footer";
 const Contact = () => {
   return (
     <div className="bg-gray-900 pt-20 ">
-      <p className=" text-2xl pb-10 text-center pt-20 text-white font-mono">
+      <p className=" text-2xl pb-10 text-center  pt-20 text-white font-mono">
         Contact Us
       </p>
       <section className="grid grid-cols-2  text-center text-white font-mono">
-        <span className="bg-gray-700 p-20 m-20 rounded ">
+        <span className="bg-gray-700 p-20 m-20 rounded  ring-2 ring-white ring-opacity-100 hover:bg-gray-500">
           <button className="px-5 py-5 rounded-full bg-gray-600 mr-2">
             <MdOutlineMail className="h-6 w-6" />
           </button>
           <p>Mail Here</p>
           <p> Email: bharatintern.info@gmail.com</p>
         </span>
-        <span className="bg-gray-700 p-20 m-20 rounded">
+        <span className="bg-gray-700 p-20 m-20 rounded  ring-2 ring-white ring-opacity-100  hover:bg-gray-500">
           <button className="px-5 py-5 rounded-full bg-gray-600 mr-2">
             <MdOutlineLocationOn className="h-6 w-6" />
           </button>

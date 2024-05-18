@@ -14,33 +14,33 @@ const Footer = () => {
         <p className="font-semibold text-xl">Address</p>
         <p>
           <button>
-            <CiLinkedin className="h-6 w-6"/>
+            <CiLinkedin className="h-4 w-6 "/>
           </button>
           LinkedIn
         </p>
         <p>
           <button>
-            <MdOutlineLocationOn className="h-6 w-6"/>
+            <MdOutlineLocationOn className="h-4 w-6"/>
           </button>
           Bhopal, Madhya Pradesh, India
         </p>
         <p>About</p>
         <p>
           <button>
-            <PiTelegramLogoLight className="h-6 w-6"/>
+            <PiTelegramLogoLight className="h-4 w-6"/>
           </button>
           Telegram
         </p>
         <p>
           <button>
-            <MdOutlineMail className="h-6 w-6"/>
+            <MdOutlineMail className="h-4 w-6"/>
           </button>
           Email: bharatintern.info@gmail.com
         </p>
         <p>Contact Us</p>
         <p>
           <button>
-            <CiYoutube className="h-6 w-6"/>
+            <CiYoutube className="h-4 w-6"/>
           </button>
           YouTube
         </p>

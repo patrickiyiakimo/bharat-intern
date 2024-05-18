@@ -2,10 +2,10 @@ import React from 'react'
 
 const AboutText = () => {
   return (
-    <div className="text-white ml-20 pt-10">
+    <div className="text-white ml-20 p-10 bg-green-800 rounded ">
       <span className="font-semibold text-xl font-mono">
         Connects students with internships:
-      </span>{" "}
+      </span>
       <p className="font-mono">
         Bharat Intern connects students with internships in a variety of fields.
         This gives students the opportunity to gain experience, skills, and a
