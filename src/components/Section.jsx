@@ -3,12 +3,19 @@ import { FaBarsProgress } from "react-icons/fa6";
 import { TbBracketsAngle } from "react-icons/tb";
 import { IoMdContacts } from "react-icons/io";
 import { PiTreeStructureThin } from "react-icons/pi";
-
+import { motion } from "framer-motion";
 
 const Section = () => {
   return (
     <div className="flex p-3 pt-10  font-mono bg-gray-900">
-      <div className="ml-10 p-10 border-dotted border-green-100 rounde border-2 mr-10 hover:bg-green-700 hover:text-gray-600">
+      <motion.div
+        whileHover={{
+          scale: 1.1,
+          boxShadow: "0px 0px 8px rgb(0, 128, 120)",
+        }}
+        transition={{ type: "spring", stiffness: 500 }}
+        className="ml-10 p-10 border-dotted border-green-100 rounde border-2 mr-10 hover:bg-green-700 hover:text-gray-600"
+      >
         <button className="px-5 py-5 rounded-full bg-green-900">
           <FaBarsProgress className="text-green-200 " />
         </button>
@@ -19,9 +26,16 @@ const Section = () => {
           Explore virtual internships in web Dev, App Dev, Full Stack, ML, and
           Data Science; focused learning
         </p>
-      </div>
+      </motion.div>
 
-      <div className=" p-10 border-dotted border-pink-100 rounded hover:text-white border-2 mr-10 hover:bg-pink-500 ">
+      <motion.div
+        whileHover={{
+          scale: 1.1,
+          boxShadow: "0px 0px 8px rgb(0, 128, 120)",
+        }}
+        transition={{ type: "spring", stiffness: 500 }}
+        className=" p-10 border-dotted border-pink-100 rounded hover:text-white border-2 mr-10 hover:bg-pink-500 "
+      >
         <button className="px-5 py-5 rounded-full bg-pink-300">
           <TbBracketsAngle className="" />
         </button>
@@ -32,8 +46,15 @@ const Section = () => {
           We believe in networking to connect with other interns who are
           interested in the same thing
         </p>
-      </div>
-      <div className=" p-10 border-dotted border-indigo-100 rounded hover:text-white border-2 mr-10 hover:bg-indigo-700 ">
+      </motion.div>
+      <motion.div
+        whileHover={{
+          scale: 1.1,
+          boxShadow: "0px 0px 8px rgb(0, 128, 120)",
+        }}
+        transition={{ type: "spring", stiffness: 500 }}
+        className=" p-10 border-dotted border-indigo-100 rounded hover:text-white border-2 mr-10 hover:bg-indigo-700 "
+      >
         <button className="px-5 py-5 rounded-full bg-indigo-300">
           <IoMdContacts className="" />
         </button>
@@ -44,8 +65,15 @@ const Section = () => {
           Trust We ensures your success and building a trusted platform for
           valuable learning experiences
         </p>
-      </div>
-      <div className="p-10 border-dotted border-orange-100 rounded hover:text-white border-2 mr-10 hover:bg-orange-700 ">
+      </motion.div>
+      <motion.div
+        whileHover={{
+          scale: 1.1,
+          boxShadow: "0px 0px 8px rgb(0, 128, 120)",
+        }}
+        transition={{ type: "spring", stiffness: 500 }}
+        className="p-10 border-dotted border-orange-100 rounded hover:text-white border-2 mr-10 hover:bg-orange-700 "
+      >
         <button className="px-5 py-5 rounded-full bg-orange-300">
           <PiTreeStructureThin />
         </button>
@@ -56,7 +84,7 @@ const Section = () => {
           Enjoy growth-oriented internship at Bharat Intern, tailored for
           maximum skill development.
         </p>
-      </div>
+      </motion.div>
     </div>
   );
 };
