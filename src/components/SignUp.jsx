@@ -1,6 +1,7 @@
 import React from "react";
 import { IoMdContact } from "react-icons/io";
 import image_one from "../Bharatintern images/wd-02b6a38300b1e58689d0ee466bd73119.png";
+import Footer from "./Footer";
 
 const SignUp = () => {
   return (
@@ -9,7 +10,7 @@ const SignUp = () => {
         <p className="text-center pb-10 pt-40 text-white font-semibold text-2xl">
           Virtual Internship Program
         </p>
-        <div className="flex text-grey-400 justify-center  bg-gray-900">
+        <div className="flex text-grey-400 justify-center mb-10 bg-gray-900">
           <div className="mr-80 ml-80 p-6 shagow-lg bg-white rounded-md">
             <h1 className="text-3xl text-gray-900 text-center block font-semibold pb-10">
               <IoMdContact className="text-gray-900" />
@@ -108,7 +109,7 @@ const SignUp = () => {
             <div className="mt-5">
               <button
                 type="submit"
-                className="border-2 border-green-400 bg-green-400 text-white py-3  rounded w-full hover:bg-green-600 hover:border-2 hover:text-white-900 font-semibold"
+                className="mb-5 mt-5 border-2 border-green-400 bg-green-400 text-white py-3  rounded w-full hover:bg-green-600 hover:border-2 hover:text-white-900 font-semibold"
               >
                 Submit
               </button>
@@ -116,6 +117,7 @@ const SignUp = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };
