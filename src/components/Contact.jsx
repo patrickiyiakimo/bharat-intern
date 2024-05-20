@@ -18,13 +18,13 @@ const Contact = () => {
             boxShadow: "0px 0px 8px rgb(225, 225, 225)",
           }}
           transition={{ type: "spring", stiffness: 100 }}
-          className="bg-gray-700 p-20 m-20 rounded  ring-2 ring-white ring-opacity-100 hover:bg-gray-500"
+          className="bg-gray-700 ml-10 mr-10 p-8 m-10 md:p-20 md:m-20 rounded  ring-2 ring-white ring-opacity-100 hover:bg-gray-500"
         >
           <button className="px-5 py-5 rounded-full bg-gray-600 mr-2">
             <MdOutlineMail className="h-6 w-6" />
           </button>
           <p>Mail Here</p>
-          <p> Email: bharatintern.info@gmail.com</p>
+          <p  className=""> Email: bharatintern.info@gmail.com</p>
         </motion.span>
         <motion.span
           whileHover={{
@@ -32,7 +32,7 @@ const Contact = () => {
             boxShadow: "0px 0px 8px rgb(225, 225, 225)",
           }}
           transition={{ type: "spring", stiffness: 100 }}
-          className="bg-gray-700 p-20 m-20 rounded  ring-2 ring-white ring-opacity-100  hover:bg-gray-500"
+          className="bg-gray-700 ml-10 mr-10 m-10 p-8 md:p-20  md:m-20 rounded  ring-2 ring-white ring-opacity-100  hover:bg-gray-500"
         >
           <button className="px-5 py-5 rounded-full bg-gray-600 mr-2">
             <MdOutlineLocationOn className="h-6 w-6" />
@@ -43,13 +43,13 @@ const Contact = () => {
       </section>
       <section className="text-center text-white font-mono pt-20">
         <p className="text-2xl pb-5">Get In Touch With Us</p>
-        <p className="pb-14">
+        <p className="pb-14 pl-5 pr-5">
           Anything on your mind we will be glad to assist you
         </p>
       </section>
-      <section className="flex">
+      <section className="md:flex">
         <img src={contact} alt="contact" className="" />
-        <div className="pl-40">
+        <div className="pl-3 mb-10 pr-5 md:pl-40">
           <div className="mt-8">
             <input
               type="text"

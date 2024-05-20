@@ -12,7 +12,7 @@ const SignUp = () => {
           Virtual Internship Program
         </p>
         <div className="flex text-grey-400 justify-center mb-10 bg-gray-900">
-          <div className="mr-80 ml-80 p-6 shagow-lg bg-white rounded-md">
+          <div className="ml-10 mr-10 md:mr-80 md:ml-80 p-6 shagow-lg bg-white rounded-md">
             <h1 className="text-3xl text-gray-900 text-center block font-semibold pb-10">
               <IoMdContact className="text-gray-900" />
               Student Details

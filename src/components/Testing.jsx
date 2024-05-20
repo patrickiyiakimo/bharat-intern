@@ -2,11 +2,11 @@ import React from "react";
 import Bharat_logo from "../Bharatintern images/download.png";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
-// import { FaTimes } from "react-icons/fa";
-// import { FiMenu } from "react-icons/fi";
+import { FaTimes } from "react-icons/fa";
+import { FiMenu } from "react-icons/fi";
 
 const Navbar = () => {
-const [isSetMenu, setIsSetMenu] = React.useState(false);
+  const [isSetMenu, setIsSetMenu] = React.useState(false);
 
   return (
     <div className="sticky top-0 z-10 w-full">
@@ -16,6 +16,11 @@ const [isSetMenu, setIsSetMenu] = React.useState(false);
         transition={{ type: "spring", stiffness: 200 }}
         className="flex pl-60 shadow-lg fixed font-semibold bg-gray-900 text-white space-x-10 px-20 pt-5 pb-5   top-0 z-10 w-full"
       >
+        {isSetMenu ? (
+          <FaTimes className="text-3xl text-red-500 ml-96 absolute mt-6  " />
+        ) : (
+          <FiMenu className="mt-6 text-3xl ml-96 absolute   " />
+        )}
 
         <img src={Bharat_logo} alt="Bharat logo" className="w-28 mr-96" />
         <motion.p
