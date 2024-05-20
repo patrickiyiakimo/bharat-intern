@@ -16,7 +16,7 @@ const Main = () => {
       <p className="text-white pl-12 pb-10 md:pl-12 md:text-right md:pr-96">Our skills include:</p>
       <div className="md:flex">
         <img src={main_image} alt="programming" className="pl-10 pr-12 " />
-        <button className="hover:bg-green-700 ml-32 md:ml-1 cursor-default mt-10 pt-5 md:mt-10 md:pt-5 text-white font-bold  bg-gray-800  rounded p-3 w-40">
+        <button className="hover:bg-green-700 ml-12 md:ml-1 cursor-default mt-10 pt-5 md:mt-10 md:pt-5 text-white font-bold  bg-gray-800  rounded p-3 w-40">
           <p>
             <TbBracketsAngle className="w-32 h-10" />
             Web Development Basics

@@ -12,7 +12,7 @@ const OurFeatures = () => {
         <p className="text-3xl font-semibold text-white text-center pb-5">
           Our Features
         </p>
-        <p className="text-center pb-10">
+        <p className="text-center pl-8 pr-8 pb-10">
           These are just some of the our features. By providing these features,
           <br />
           We can make a valuable resource for students looking for internships.

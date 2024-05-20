@@ -33,7 +33,7 @@ const Navbar = () => {
           transition={{ type: "spring", stiffness: 500 }}
           className="mt-3  cursor-pointer"
         >
-          <Link to="/about">About</Link>
+          <Link to="/aboutus">About</Link>
         </motion.p>
         <motion.p
           whileHover={{
