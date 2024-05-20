@@ -5,8 +5,8 @@ import { motion } from "framer-motion";
 const Hero = () => {
   return (
     <div className="pb-10 bg-gray-900">
-      <div className="flex pt-40 text-white bg-gray-900 ">
-        <p className="pl-20 pb-40 pt-40 text-5xl font-bold">
+      <div className="md:flex pt-40 text-white bg-gray-900 ">
+        <p className="pl-10 md:pl-20 md:pb-40 md:pt-40 text-5xl font-bold">
           Unlock your potential with
           <span className="text-blue-400">
             {" "}
@@ -24,7 +24,7 @@ const Hero = () => {
           transition={{ type: "spring", delay: 0.5, stiffness: 60 }}
           src={hero_image}
           alt="main"
-          className="ml-20 pb-20 bg-gray-900 mr-20 "
+          className="ml-10 mt-10 w-3/4 md:ml-20 pb-20 bg-gray-900 mr-20 "
         />
       </div>
       <motion.button
@@ -34,7 +34,7 @@ const Hero = () => {
           boxShadow: "0px 0px 8px rgb(0, 128, 120)",
         }}
         transition={{type:'spring', stiffness:500}}
-        className="ml-40  font-bold text-white bg-green-400 hover:border-green-400 rounded p-3 w-40 hover:bg-purple-500"
+        className="ml-32 md:ml-40  font-bold text-white bg-green-400 hover:border-green-400 rounded p-3 w-40 hover:bg-purple-500"
       >
         Get Started
       </motion.button>

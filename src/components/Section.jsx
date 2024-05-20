@@ -7,14 +7,14 @@ import { motion } from "framer-motion";
 
 const Section = () => {
   return (
-    <div className="flex p-3 pt-10  font-mono bg-gray-900">
+    <div className=" md:flex p-3 pt-10  font-mono bg-gray-900">
       <motion.div
         whileHover={{
           scale: 1.1,
           boxShadow: "0px 0px 8px rgb(0, 128, 120)",
         }}
         transition={{ type: "spring", stiffness: 500 }}
-        className="ml-10 p-10 border-dotted border-green-100 rounde border-2 mr-10 hover:bg-green-700 hover:text-gray-600"
+        className="mb-10 ml-10 md:ml-10 p-6 md:p-10 border-dotted border-green-100 rounde border-2 mr-10 hover:bg-green-700 hover:text-gray-600"
       >
         <button className="px-5 py-5 rounded-full bg-green-900">
           <FaBarsProgress className="text-green-200 " />
@@ -34,7 +34,7 @@ const Section = () => {
           boxShadow: "0px 0px 8px rgb(0, 128, 120)",
         }}
         transition={{ type: "spring", stiffness: 500 }}
-        className=" p-10 border-dotted border-pink-100 rounded hover:text-white border-2 mr-10 hover:bg-pink-500 "
+        className="mb-10 ml-10 md:ml-10 p-6 md:p-10 border-dotted border-pink-100 rounded hover:text-white border-2 mr-10 hover:bg-pink-500 "
       >
         <button className="px-5 py-5 rounded-full bg-pink-300">
           <TbBracketsAngle className="" />
@@ -53,7 +53,7 @@ const Section = () => {
           boxShadow: "0px 0px 8px rgb(0, 128, 120)",
         }}
         transition={{ type: "spring", stiffness: 500 }}
-        className=" p-10 border-dotted border-indigo-100 rounded hover:text-white border-2 mr-10 hover:bg-indigo-700 "
+        className="mb-10 ml-10 md:ml-10 p-6 md:p-10 border-dotted border-indigo-100 rounded hover:text-white border-2 mr-10 hover:bg-indigo-700 "
       >
         <button className="px-5 py-5 rounded-full bg-indigo-300">
           <IoMdContacts className="" />
@@ -72,7 +72,7 @@ const Section = () => {
           boxShadow: "0px 0px 8px rgb(0, 128, 120)",
         }}
         transition={{ type: "spring", stiffness: 500 }}
-        className="p-10 border-dotted border-orange-100 rounded hover:text-white border-2 mr-10 hover:bg-orange-700 "
+        className="mb-10 ml-10 md:ml-10 p-6 md:p-10 border-dotted border-orange-100 rounded hover:text-white border-2 mr-10 hover:bg-orange-700 "
       >
         <button className="px-5 py-5 rounded-full bg-orange-300">
           <PiTreeStructureThin />
