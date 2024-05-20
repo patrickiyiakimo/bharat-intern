@@ -18,7 +18,7 @@ const OurFeatures = () => {
           We can make a valuable resource for students looking for internships.
         </p>
       </div>
-      <div className="bg-gray-900 text-white grid grid-cols-2 gap-10 pb-20">
+      <div className="bg-gray-900  text-white md:grid grid-cols-2 gap-10 pb-20">
         <motion.div
           whileHover={{
             scale: 1.1,
@@ -27,7 +27,7 @@ const OurFeatures = () => {
           transition={{ type: "spring", stiffness: 300 }}
           className="ml-10 bg-gray-800 p-10 border-dotted border-2 border-green-400 rounded"
         >
-          <p className="font-semibold text-2xl font-mono">
+          <p className="font-semibold  text-2xl font-mono">
             <button className="px-5 py-5 rounded-full bg-green-400 mr-2">
               <IoSettingsOutline />
             </button>

@@ -4,20 +4,20 @@ import AboutText from "./AboutText";
 
 const About = () => {
   return (
-    <div className="bg-gray-900 pb-20">
-      <div className="ml-20 text-2xl font-mono font-semibold mb-5 text-white pt-20">
+    <div className="bg-gray-900 pb-10 md:pb-20">
+      <div className="ml-5 md:ml-20 text-2xl font-mono font-semibold mb-5 text-white pt-20">
         About us
       </div>
-      <p className="text-white ml-20 mb-5 font-mono flex">
+      <p className="text-white ml-5 md:ml-20 mb-5 font-mono flex">
         At Bharat Intern, we are passionate about empowering innovations that
         <br />
         shape a better future for businesses and individuals alike.
       </p>
-      <div className="grid grid-cols-2   ">
+      <div className="md:grid grid-cols-2   ">
         <p>
           <AboutText className="bg-green-400" />
         </p>
-        <img src={about_img} alt="about img" className="ml-40 "/>
+        <img src={about_img} alt="about img" className="ml-10 md:ml-40 "/>
       </div>
     </div>
   );

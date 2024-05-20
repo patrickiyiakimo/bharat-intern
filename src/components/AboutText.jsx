@@ -2,7 +2,7 @@ import React from 'react'
 
 const AboutText = () => {
   return (
-    <div className="text-white ml-20 p-10 bg-green-800 rounded ">
+    <div className="text-white ml-5 mb-5 mr-5 md:ml-20 p-10 bg-green-800 rounded ">
       <span className="font-semibold text-xl font-mono">
         Connects students with internships:
       </span>

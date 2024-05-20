@@ -9,7 +9,7 @@ import { motion } from "framer-motion";
 const Footer = () => {
   return (
     <div>
-      <div className="grid grid-cols-3 gap-7 text-gray-200 bg-gray-600 font-mono pt-20 pl-40">
+      <div className="md:grid grid-cols-3 gap-7 text-gray-200 bg-gray-600 font-mono pt-10 md:pt-20 pl-10 md:pl-40">
         <motion.p
           whileHover={{
             scale: 1.3,
@@ -17,7 +17,7 @@ const Footer = () => {
             color: "rgb(0, 228, 220)",
           }}
           transition={{ type: "spring", stiffness: 50 }}
-          className="font-semibold text-xl"
+          className="font-semibold pb-1 text-xl"
         >
           Find More
         </motion.p>
@@ -39,7 +39,7 @@ const Footer = () => {
             color: "rgb(0, 228, 220)",
           }}
           transition={{ type: "spring", stiffness: 50 }}
-          className="font-semibold text-xl"
+          className="font-semibold pb-2 text-xl"
         >
           Address
         </motion.p>
@@ -76,6 +76,7 @@ const Footer = () => {
             color: "rgb(0, 228, 220)",
           }}
           transition={{ type: "spring", stiffness: 50 }}
+          className="font-bold"
         >
           About
         </motion.p>
