@@ -1,12 +1,9 @@
-import React from 'react'
+import React from "react";
 import { IoSettingsOutline } from "react-icons/io5";
 import { MdOutlineMailOutline } from "react-icons/md";
 import { IoCubeOutline } from "react-icons/io5";
 import { MdErrorOutline } from "react-icons/md";
-
-
-
-
+import { motion } from "framer-motion";
 
 const OurFeatures = () => {
   return (
@@ -22,7 +19,14 @@ const OurFeatures = () => {
         </p>
       </div>
       <div className="bg-gray-900 text-white grid grid-cols-2 gap-10 pb-20">
-        <div className="ml-10 bg-gray-800 p-10 border-dotted border-2 border-green-400 rounded">
+        <motion.div
+          whileHover={{
+            scale: 1.1,
+            boxShadow: "0px 0px 8px rgb(0, 128, 120)",
+          }}
+          transition={{ type: "spring", stiffness: 300 }}
+          className="ml-10 bg-gray-800 p-10 border-dotted border-2 border-green-400 rounded"
+        >
           <p className="font-semibold text-2xl font-mono">
             <button className="px-5 py-5 rounded-full bg-green-400 mr-2">
               <IoSettingsOutline />
@@ -33,8 +37,15 @@ const OurFeatures = () => {
             The email notifications about important events, such as upcoming
             deadlines, new assignments, and changes to your schedule.
           </p>
-        </div>
-        <div className="mr-10 bg-gray-800 p-10 rounded  border-dotted border-2 border-blue-400">
+        </motion.div>
+        <motion.div
+          whileHover={{
+            scale: 1.1,
+            boxShadow: "0px 0px 8px rgb(0, 128, 120)",
+          }}
+          transition={{ type: "spring", stiffness: 300 }}
+          className="mr-10 bg-gray-800 p-10 rounded  border-dotted border-2 border-blue-400"
+        >
           <p className="font-semibold text-2xl font-mono">
             <button className="px-5 py-5  rounded-full bg-blue-400 mr-2">
               <MdOutlineMailOutline />
@@ -45,8 +56,15 @@ const OurFeatures = () => {
             The simplicity of the interface makes it easy to use and navigate.
             The information is presented in a clear and concise way.
           </p>
-        </div>
-        <div className="ml-10 bg-gray-800 p-10 rounded  border-dotted border-2 border-pink-400">
+        </motion.div>
+        <motion.div
+          whileHover={{
+            scale: 1.1,
+            boxShadow: "0px 0px 8px rgb(0, 128, 120)",
+          }}
+          transition={{ type: "spring", stiffness: 300 }}
+          className="ml-10 bg-gray-800 p-10 rounded  border-dotted border-2 border-pink-400"
+        >
           <p className="font-semibold text-2xl font-mono">
             <button className="px-5 py-5  rounded-full bg-pink-400 mr-2">
               <IoCubeOutline />
@@ -57,8 +75,15 @@ const OurFeatures = () => {
             We believe in networking to connect with other interns who are
             interested in the same things.
           </p>
-        </div>
-        <div className="mr-10 bg-gray-800 p-10 rounded  border-dotted border-2 border-orange-400">
+        </motion.div>
+        <motion.div
+          whileHover={{
+            scale: 1.1,
+            boxShadow: "0px 0px 8px rgb(0, 128, 120)",
+          }}
+          transition={{ type: "spring", stiffness: 300 }}
+          className="mr-10 bg-gray-800 p-10 rounded  border-dotted border-2 border-orange-400"
+        >
           <p className="font-semibold text-2xl font-mono">
             <button className="px-5 py-5 rounded-full bg-orange-400 mr-2">
               <MdErrorOutline />
@@ -69,10 +94,10 @@ const OurFeatures = () => {
             The reminders are sent to you in advance in our telegram channel and
             your email, so you have plenty of time to get your tasks done.
           </p>
-        </div>
+        </motion.div>
       </div>
     </div>
   );
-}
+};
 
-export default OurFeatures
+export default OurFeatures;

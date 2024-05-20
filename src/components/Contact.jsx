@@ -3,6 +3,7 @@ import { MdOutlineLocationOn } from "react-icons/md";
 import { MdOutlineMail } from "react-icons/md";
 import contact from "../Bharatintern images/contact-img-71ccec92531e0f5a57feb8c853f743de.png";
 import Footer from "./Footer";
+import { motion } from "framer-motion";
 
 const Contact = () => {
   return (
@@ -11,20 +12,34 @@ const Contact = () => {
         Contact Us
       </p>
       <section className="grid grid-cols-2  text-center text-white font-mono">
-        <span className="bg-gray-700 p-20 m-20 rounded  ring-2 ring-white ring-opacity-100 hover:bg-gray-500">
+        <motion.span
+          whileHover={{
+            scale: 1.1,
+            boxShadow: "0px 0px 8px rgb(225, 225, 225)",
+          }}
+          transition={{ type: "spring", stiffness: 100 }}
+          className="bg-gray-700 p-20 m-20 rounded  ring-2 ring-white ring-opacity-100 hover:bg-gray-500"
+        >
           <button className="px-5 py-5 rounded-full bg-gray-600 mr-2">
             <MdOutlineMail className="h-6 w-6" />
           </button>
           <p>Mail Here</p>
           <p> Email: bharatintern.info@gmail.com</p>
-        </span>
-        <span className="bg-gray-700 p-20 m-20 rounded  ring-2 ring-white ring-opacity-100  hover:bg-gray-500">
+        </motion.span>
+        <motion.span
+          whileHover={{
+            scale: 1.1,
+            boxShadow: "0px 0px 8px rgb(225, 225, 225)",
+          }}
+          transition={{ type: "spring", stiffness: 100 }}
+          className="bg-gray-700 p-20 m-20 rounded  ring-2 ring-white ring-opacity-100  hover:bg-gray-500"
+        >
           <button className="px-5 py-5 rounded-full bg-gray-600 mr-2">
             <MdOutlineLocationOn className="h-6 w-6" />
           </button>
           <p>Visit Here</p>
           <p> Bhopal, Madhya Pradesh, India</p>
-        </span>
+        </motion.span>
       </section>
       <section className="text-center text-white font-mono pt-20">
         <p className="text-2xl pb-5">Get In Touch With Us</p>
@@ -63,9 +78,17 @@ const Contact = () => {
               placeholder="Write your message...."
             />
           </div>
-          <button className="w-36 bg-green-400 text-white px-3 py-3 mt-4 rounded font-semibold hover:bg-green-700">
+          <motion.button
+            whileHover={{
+              scale: 1.1,
+              textShadow: "rgb(0, 228, 220)",
+              boxShadow: "0px 0px 8px rgb(0, 128, 120)",
+            }}
+            transition={{ type: "spring", stiffness: 500 }}
+            className="w-36 bg-green-400 text-white px-3 py-3 mt-4 rounded font-semibold hover:bg-green-700"
+          >
             Submit
-          </button>
+          </motion.button>
         </div>
       </section>
       <Footer />

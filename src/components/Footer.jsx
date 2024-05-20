@@ -4,47 +4,140 @@ import { CiLinkedin } from "react-icons/ci";
 import { MdOutlineLocationOn } from "react-icons/md";
 import { MdOutlineMail } from "react-icons/md";
 import { CiYoutube } from "react-icons/ci";
+import { motion } from "framer-motion";
 
 const Footer = () => {
   return (
     <div>
       <div className="grid grid-cols-3 gap-7 text-gray-200 bg-gray-600 font-mono pt-20 pl-40">
-        <p className="font-semibold text-xl">Find More</p>
-        <p className="font-semibold text-xl">Follow Us</p>
-        <p className="font-semibold text-xl">Address</p>
-        <p>
+        <motion.p
+          whileHover={{
+            scale: 1.3,
+            originX: 0,
+            color: "rgb(0, 228, 220)",
+          }}
+          transition={{ type: "spring", stiffness: 50 }}
+          className="font-semibold text-xl"
+        >
+          Find More
+        </motion.p>
+        <motion.p
+          whileHover={{
+            scale: 1.3,
+            originX: 0,
+            color: "rgb(0, 228, 220)",
+          }}
+          transition={{ type: "spring", stiffness: 50 }}
+          className="font-semibold text-xl"
+        >
+          Follow Us
+        </motion.p>
+        <motion.p
+          whileHover={{
+            scale: 1.3,
+            originX: 0,
+            color: "rgb(0, 228, 220)",
+          }}
+          transition={{ type: "spring", stiffness: 50 }}
+          className="font-semibold text-xl"
+        >
+          Address
+        </motion.p>
+        <motion.p
+          whileHover={{
+            scale: 1.3,
+            originX: 0,
+            color: "rgb(0, 228, 220)",
+          }}
+          transition={{ type: "spring", stiffness: 50 }}
+        >
           <button>
-            <CiLinkedin className="h-4 w-6 "/>
+            <CiLinkedin className="h-4 w-6 " />
           </button>
           LinkedIn
-        </p>
-        <p>
+        </motion.p>
+        <motion.p
+          whileHover={{
+            scale: 1.3,
+            originX: 0,
+            color: "rgb(0, 228, 220)",
+          }}
+          transition={{ type: "spring", stiffness: 50 }}
+        >
           <button>
-            <MdOutlineLocationOn className="h-4 w-6"/>
+            <MdOutlineLocationOn className="h-4 w-6" />
           </button>
           Bhopal, Madhya Pradesh, India
-        </p>
-        <p>About</p>
-        <p>
+        </motion.p>
+        <motion.p
+          whileHover={{
+            scale: 1.3,
+            originX: 0,
+            color: "rgb(0, 228, 220)",
+          }}
+          transition={{ type: "spring", stiffness: 50 }}
+        >
+          About
+        </motion.p>
+        <motion.p
+          whileHover={{
+            scale: 1.3,
+            originX: 0,
+            color: "rgb(0, 228, 220)",
+          }}
+          transition={{ type: "spring", stiffness: 50 }}
+        >
           <button>
-            <PiTelegramLogoLight className="h-4 w-6"/>
+            <PiTelegramLogoLight className="h-4 w-6" />
           </button>
           Telegram
-        </p>
-        <p>
+        </motion.p>
+        <motion.p
+          whileHover={{
+            scale: 1.3,
+            originX: 0,
+            color: "rgb(0, 228, 220)",
+          }}
+          transition={{ type: "spring", stiffness: 50 }}
+        >
           <button>
-            <MdOutlineMail className="h-4 w-6"/>
+            <MdOutlineMail className="h-4 w-6" />
           </button>
           Email: bharatintern.info@gmail.com
-        </p>
-        <p>Contact Us</p>
-        <p>
+        </motion.p>
+        <motion.p
+          whileHover={{
+            scale: 1.3,
+            originX: 0,
+            color: "rgb(0, 228, 220)",
+          }}
+          transition={{ type: "spring", stiffness: 50 }}
+        >
+          Contact Us
+        </motion.p>
+        <motion.p
+          whileHover={{
+            scale: 1.3,
+            originX: 0,
+            color: "rgb(0, 228, 220)",
+          }}
+          transition={{ type: "spring", stiffness: 50 }}
+        >
           <button>
-            <CiYoutube className="h-4 w-6"/>
+            <CiYoutube className="h-4 w-6" />
           </button>
           YouTube
-        </p>
-        <p>Apply</p>
+        </motion.p>
+        <motion.p
+          whileHover={{
+            scale: 1.3,
+            originX: 0,
+            color: "rgb(0, 228, 220)",
+          }}
+          transition={{ type: "spring", stiffness: 50 }}
+        >
+          Apply
+        </motion.p>
       </div>
       <div className="bg-gray-600 p-10 text-white font-mono">
         <p className="text-center">
