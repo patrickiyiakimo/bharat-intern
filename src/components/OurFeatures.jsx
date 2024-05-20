@@ -25,15 +25,15 @@ const OurFeatures = () => {
             boxShadow: "0px 0px 8px rgb(0, 128, 120)",
           }}
           transition={{ type: "spring", stiffness: 300 }}
-          className="ml-10 bg-gray-800 p-10 border-dotted border-2 border-green-400 rounded"
+          className="ml-10 bg-gray-800 mb-10 mr-10 p-5 md:p-10 border-dotted border-2 border-green-400 rounded"
         >
           <p className="font-semibold  text-2xl font-mono">
-            <button className="px-5 py-5 rounded-full bg-green-400 mr-2">
+            <button className="px-3 py-3 md:px-5 md:py-5 rounded-full bg-green-400 mr-2">
               <IoSettingsOutline />
             </button>
             Email Notifications
           </p>
-          <p className="text-white font-mono">
+          <p className="text-white  font-mono">
             The email notifications about important events, such as upcoming
             deadlines, new assignments, and changes to your schedule.
           </p>
@@ -44,10 +44,10 @@ const OurFeatures = () => {
             boxShadow: "0px 0px 8px rgb(0, 128, 120)",
           }}
           transition={{ type: "spring", stiffness: 300 }}
-          className="mr-10 bg-gray-800 p-10 rounded  border-dotted border-2 border-blue-400"
+          className="md:mr-10 bg-gray-800 mb-10 ml-10 mr-10 p-5 md:p-10 rounded  border-dotted border-2 border-blue-400"
         >
           <p className="font-semibold text-2xl font-mono">
-            <button className="px-5 py-5  rounded-full bg-blue-400 mr-2">
+            <button className="px-3 py-3 md:px-5 md:py-5  rounded-full bg-blue-400 mr-2">
               <MdOutlineMailOutline />
             </button>
             Simple Interface
@@ -63,10 +63,10 @@ const OurFeatures = () => {
             boxShadow: "0px 0px 8px rgb(0, 128, 120)",
           }}
           transition={{ type: "spring", stiffness: 300 }}
-          className="ml-10 bg-gray-800 p-10 rounded  border-dotted border-2 border-pink-400"
+          className="ml-10 bg-gray-800 mb-10 mr-10 p-5 md:p-10 rounded  border-dotted border-2 border-pink-400"
         >
           <p className="font-semibold text-2xl font-mono">
-            <button className="px-5 py-5  rounded-full bg-pink-400 mr-2">
+            <button className="px-3 py-3 md:px-5 md:py-5  rounded-full bg-pink-400 mr-2">
               <IoCubeOutline />
             </button>
             Large Community
@@ -82,10 +82,10 @@ const OurFeatures = () => {
             boxShadow: "0px 0px 8px rgb(0, 128, 120)",
           }}
           transition={{ type: "spring", stiffness: 300 }}
-          className="mr-10 bg-gray-800 p-10 rounded  border-dotted border-2 border-orange-400"
+          className="md:mr-10 bg-gray-800 mb-10 ml-10 mr-10 p-5 md:p-10 rounded  border-dotted border-2 border-orange-400"
         >
           <p className="font-semibold text-2xl font-mono">
-            <button className="px-5 py-5 rounded-full bg-orange-400 mr-2">
+            <button className="px-3 py-3 md:px-5 md:py-5 rounded-full bg-orange-400 mr-2">
               <MdErrorOutline />
             </button>
             Deadline Reminders
