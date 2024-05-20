@@ -2,6 +2,7 @@ import React from "react";
 import { IoMdContact } from "react-icons/io";
 import image_one from "../Bharatintern images/wd-02b6a38300b1e58689d0ee466bd73119.png";
 import Footer from "./Footer";
+import { motion } from "framer-motion";
 
 const SignUp = () => {
   return (

@@ -7,6 +7,7 @@ import image_five from "../Bharatintern images/fs-e46224840cdf6333df6a3709ad7811
 import { IoArrowForwardCircleSharp } from "react-icons/io5";
 import Footer from "./Footer";
 import { Link } from "react-router-dom";
+import { motion } from "framer-motion";
 
 const Apply = () => {
   return (
@@ -15,7 +16,12 @@ const Apply = () => {
         <p>INTERNSHIPS WE OFFER!</p>
       </div>
       <span className="bg-gray-900 grid grid-cols-3 gap-10 ml-40">
-        <div className=" overflow-hidden">
+        <motion.div
+          initial={{ x: "-100vw" }}
+          animate={{ x: 0 }}
+          transition={{ type: "spring", delay: 0.5, stiffness: 60 }}
+          className=" overflow-hidden"
+        >
           <img src={image_one} alt="html" className="w-3/4 rounded" />
           <p className="bg-white text-gray-600 font-semibold px-3 py-3 mt-4 ml-30 rounded cursor-pointer hover:bg-green-400 hover:text-white w-64">
             <Link to="/signup">Web Development</Link>
@@ -23,8 +29,12 @@ const Apply = () => {
               <IoArrowForwardCircleSharp className="" />
             </button>
           </p>
-        </div>
-        <div>
+        </motion.div>
+        <motion.div
+          initial={{ x: "100vw" }}
+          animate={{ x: 0 }}
+          transition={{ type: "spring", delay: 0.5, stiffness: 60 }}
+        >
           <img src={image_two} alt="html" className="w-3/4 rounded" />
           <p className="bg-white text-gray-600 px-3 py-3 mt-4 ml-30 font-semibold rounded cursor-pointer hover:bg-green-400 hover:text-white w-64">
             <Link to="/signup">Machine Learning</Link>
@@ -32,8 +42,12 @@ const Apply = () => {
               <IoArrowForwardCircleSharp className="" />
             </button>
           </p>
-        </div>
-        <div>
+        </motion.div>
+        <motion.div
+          initial={{ x: "100vw" }}
+          animate={{ x: 0 }}
+          transition={{ type: "spring", delay: 0.5, stiffness: 60 }}
+        >
           <img src={image_three} alt="html" className="w-3/4 rounded" />
           <p className="bg-white text-gray-600 px-3 py-3 mt-4 ml-30 rounded font-semibold cursor-pointer hover:bg-green-400 hover:text-white w-64">
             <Link to="/signup">Data Science</Link>
@@ -41,8 +55,12 @@ const Apply = () => {
               <IoArrowForwardCircleSharp className="" />
             </button>
           </p>
-        </div>
-        <div>
+        </motion.div>
+        <motion.div
+          initial={{ x: "-100vw" }}
+          animate={{ x: 0 }}
+          transition={{ type: "spring", delay: 0.5, stiffness: 60 }}
+        >
           <img src={image_four} alt="html" className="w-3/4 rounded" />
           <p className="bg-white text-gray-600 px-3 py-3 mt-4 ml-30 rounded font-semibold cursor-pointer hover:bg-green-400 hover:text-white w-64">
             <Link to="/signup">App Development</Link>
@@ -50,8 +68,12 @@ const Apply = () => {
               <IoArrowForwardCircleSharp className="" />
             </button>
           </p>
-        </div>
-        <div>
+        </motion.div>
+        <motion.div
+          initial={{ x: "100vw" }}
+          animate={{ x: 0 }}
+          transition={{ type: "spring", delay: 0.5, stiffness: 60 }}
+        >
           <img src={image_five} alt="html" className="w-3/4 rounded" />
           <p className="bg-white text-gray-600 px-3 py-3 mt-4 mb-20 ml-30 rounded font-semibold cursor-pointer hover:bg-green-400 hover:text-white w-64">
             <Link to="/signup">Full-Stack Web Development</Link>
@@ -59,7 +81,7 @@ const Apply = () => {
               <IoArrowForwardCircleSharp className="" />
             </button>
           </p>
-        </div>
+        </motion.div>
       </span>
       <Footer />
     </div>
