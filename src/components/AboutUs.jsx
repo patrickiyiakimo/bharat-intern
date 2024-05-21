@@ -20,8 +20,8 @@ const AboutUs = () => {
             <p className="font-semibold pl-10 pr-10 text-center md:pt-10 text-2xl md:pb-4">
               About Us
             </p>
-            <p className="pl-5 pr-10">
-         
+            <p className="pl-5 pr-10"
+            >
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
               nulla perspiciatis error numquam perferendis, quas fugit
               repellendus soluta officia ipsam, quod molestias quasi nemo, natus

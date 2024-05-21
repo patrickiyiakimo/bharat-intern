@@ -1,8 +1,16 @@
 import React from 'react'
+import { motion } from "framer-motion";
 
 const AboutText = () => {
   return (
-    <div className="text-white ml-5 mb-5 mr-5 md:ml-20 p-10 bg-green-800 rounded ">
+    <motion.div
+      whileHover={{
+        scale: 1.1,
+        boxShadow: "0px 0px 8px rgb(255, 255, 255)",
+      }}
+      transition={{ type: "spring", stiffness: 300 }}
+      className="text-white ml-5 mb-5 mr-5 md:ml-20 p-10 bg-gray-800 rounded "
+    >
       <span className="font-semibold text-xl font-mono">
         Connects students with internships:
       </span>
@@ -29,7 +37,7 @@ const AboutText = () => {
         gain experience, skills, and a network that can help you land your first
         job
       </p>
-    </div>
+    </motion.div>
   );
 }
 
