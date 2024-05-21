@@ -30,7 +30,7 @@ const Main = () => {
               boxShadow: "0px 0px 8px rgb(0, 128, 120)",
             }}
             transition={{ type: "spring", stiffness: 500 }}
-            className=" ml-32   mt-4 pl-20 md:mt-10 block text-white font-semibold  bg-gray-800  rounded  w-96"
+            className="ml-10 md:ml-32   mt-4 pl-20 md:mt-10 block text-white font-semibold  bg-gray-800  rounded  w-80 md:w-96"
           >
             <button>
               <TbBracketsAngle className=" h-6" />
@@ -43,7 +43,7 @@ const Main = () => {
               boxShadow: "0px 0px 8px rgb(0, 128, 120)",
             }}
             transition={{ type: "spring", stiffness: 500 }}
-            className=" ml-32  mt-4 pl-20 md:mt-4  block text-white font-semibold  bg-gray-500  rounded  w-96"
+            className="ml-10 md:ml-32  mt-4 pl-20 md:mt-4  block text-white font-semibold  bg-gray-500  rounded  w-80 md:w-96"
           >
             <button>
               <TbBracketsAngle className=" h-6" />
@@ -56,7 +56,7 @@ const Main = () => {
               boxShadow: "0px 0px 8px rgb(0, 128, 120)",
             }}
             transition={{ type: "spring", stiffness: 500 }}
-            className=" ml-32  mt-4 pl-20 md:mt-4  block text-white font-semibold bg-gray-800  rounded  w-96"
+            className="ml-10 md:ml-32  mt-4 pl-20 md:mt-4  block text-white font-semibold bg-gray-800  rounded  w-80 md:w-96"
           >
             <button>
               <IoIosPhonePortrait className=" h-6" />
@@ -69,7 +69,7 @@ const Main = () => {
               boxShadow: "0px 0px 8px rgb(0, 128, 120)",
             }}
             transition={{ type: "spring", stiffness: 500 }}
-            className=" ml-32  mt-4 pl-20 md:mt-4  block text-white font-semibold bg-gray-500  rounded  w-96"
+            className="ml-10 md:ml-32  mt-4 pl-20 md:mt-4  block text-white font-semibold bg-gray-500  rounded  w-80 md:w-96"
           >
             <button>
               <TbBracketsAngle className=" h-6" />
@@ -82,8 +82,8 @@ const Main = () => {
               boxShadow: "0px 0px 8px rgb(0, 128, 120)",
             }}
             transition={{ type: "spring", stiffness: 500 }}
-            className=" ml-32  mt-4 pl-20 md:pr-10 block
-           text-white font-semibold bg-gray-800  rounded  w-96"
+            className="ml-10 md:ml-32  mt-4 pl-20 md:pr-10 block
+           text-white font-semibold bg-gray-800  rounded  w-80 md:w-96"
           >
             <button>
               <TbBracketsAngle className=" h-6" />
