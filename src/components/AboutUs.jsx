@@ -7,14 +7,14 @@ const AboutUs = () => {
   return (
     <div className="bg-gray-900 font-mono text-white">
       <div>
-        <p className="text-center text-2xl font-semibold pt-20 md:pt-40 md:pb-20">
+        <p className="sm:pt-40 text-center text-2xl font-semibold pt-20 md:pt-40 md:pb-20">
           About Us
         </p>
         <section className="md:flex pb-20">
           <img
             src={About_us}
             alt="coder"
-            className="w-2/3 md:w-1/2 pl-20 md:pl-1"
+            className="w-2/3 md:w-1/2 pl-20 md:pl-1 sm:pl-40"
           />
           <span className="pr-20 pl-20">
             <p className="font-semibold pl-10 pr-10 text-center md:pt-10 text-2xl md:pb-4">

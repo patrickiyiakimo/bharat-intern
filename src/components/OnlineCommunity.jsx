@@ -13,7 +13,7 @@ const OnlineCommunity = () => {
           success.
         </p>
       </div>
-      <div className="md:grid grid-cols-4 pb-20 bg-gray-900 pr-10 pl-32 md:pl-40 font-mono">
+      <div className=" md:grid grid-cols-4 pb-20 bg-gray-900 pr-10 pl-32 md:pl-40 font-mono">
         <div>
           <p className='text-5xl font-semibold text-green-400'>200k+</p>
           <p className='text-white md:pt-3 text-sm pb-10'> LinkedIn community</p>

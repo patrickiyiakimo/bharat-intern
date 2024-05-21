@@ -2,6 +2,7 @@ import React from "react";
 import main_image from "../Bharatintern images/service-left-main-pic-ac969d4475c0c5d184cf467d3321d7a2.png";
 import { TbBracketsAngle } from "react-icons/tb";
 import { IoIosPhonePortrait } from "react-icons/io";
+import { motion } from "framer-motion";
 
 const Main = () => {
   return (
@@ -13,31 +14,83 @@ const Main = () => {
         At Bharat Intern, we excel in various domains to bring your ideas to
         life.
       </p>
-      <p className="text-white pl-12 pb-10 md:pl-12 md:text-right md:pr-96">Our skills include:</p>
-      <div className="md:flex">
-        <img src={main_image} alt="programming" className="pl-10 pr-12 " />
-        <button className="hover:bg-green-700 ml-12 md:ml-1 cursor-default mt-10 pt-5 md:mt-10 md:pt-5 text-white font-bold  bg-gray-800  rounded p-3 w-40">
-          <p>
-            <TbBracketsAngle className="w-32 h-10" />
-            Web Development Basics
-          </p>
-        </button>
-        <button className="hover:bg-green-700 ml-32 cursor-default mt-10 pt-5 md:mt-10 md:pt-5 block text-white font-bold  bg-gray-500  rounded p-3 w-40">
-          <TbBracketsAngle className="w-32 h-10" />
-          <p>Full Stack Web Development</p>
-        </button>
-        <button className="hover:bg-green-700 ml-32 cursor-default mt-10 pt-5 md:mt-10 md:pt-5 block text-white font-bold bg-gray-800  rounded p-3 w-40">
-          <IoIosPhonePortrait className="w-32 h-10" />
-          <p>Andriod Development</p>
-        </button>
-        <button className="hover:bg-green-700 ml-32 cursor-default mt-10 pt-5 md:mt-10 md:pt-5 block text-white font-bold bg-gray-500  rounded p-3 w-40">
-          <TbBracketsAngle className="w-32 h-10" />
-          <p>Machine Learning </p>
-        </button>
-        <button className="hover:bg-green-700 ml-32 cursor-default mt-10 pt-5 md:mt-10 md:pr-10 pt-5 text-white font-bold bg-gray-800  rounded p-3 w-40">
-          <TbBracketsAngle className="w-32 h-10" />
-          <p>Data Science</p>
-        </button>
+      <p className="text-white pl-12 pb-10 md:pl-12 md:text-right md:pr-96">
+        Our skills include:
+      </p>
+      <div className=" md:grid grid-cols-2">
+        <img
+          src={main_image}
+          alt="programming"
+          className="pl-10 pr-12 sm:pl-40 w-4/4"
+        />
+        <section>
+          <motion.p
+            whileHover={{
+              scale: 1.1,
+              boxShadow: "0px 0px 8px rgb(0, 128, 120)",
+            }}
+            transition={{ type: "spring", stiffness: 500 }}
+            className=" ml-32   mt-4 pl-20 md:mt-10 block text-white font-semibold  bg-gray-800  rounded  w-96"
+          >
+            <button>
+              <TbBracketsAngle className=" h-6" />
+            </button>
+            <p> Web Development Basics</p>
+          </motion.p>
+          <motion.p
+            whileHover={{
+              scale: 1.1,
+              boxShadow: "0px 0px 8px rgb(0, 128, 120)",
+            }}
+            transition={{ type: "spring", stiffness: 500 }}
+            className=" ml-32  mt-4 pl-20 md:mt-4  block text-white font-semibold  bg-gray-500  rounded  w-96"
+          >
+            <button>
+              <TbBracketsAngle className=" h-6" />
+            </button>
+            <p>Full Stack Web Development</p>
+          </motion.p>
+          <motion.p
+            whileHover={{
+              scale: 1.1,
+              boxShadow: "0px 0px 8px rgb(0, 128, 120)",
+            }}
+            transition={{ type: "spring", stiffness: 500 }}
+            className=" ml-32  mt-4 pl-20 md:mt-4  block text-white font-semibold bg-gray-800  rounded  w-96"
+          >
+            <button>
+              <IoIosPhonePortrait className=" h-6" />
+            </button>
+            <p>Andriod Development</p>
+          </motion.p>
+          <motion.p
+            whileHover={{
+              scale: 1.1,
+              boxShadow: "0px 0px 8px rgb(0, 128, 120)",
+            }}
+            transition={{ type: "spring", stiffness: 500 }}
+            className=" ml-32  mt-4 pl-20 md:mt-4  block text-white font-semibold bg-gray-500  rounded  w-96"
+          >
+            <button>
+              <TbBracketsAngle className=" h-6" />
+            </button>
+            <p>Machine Learning </p>
+          </motion.p>
+          <motion.p
+            whileHover={{
+              scale: 1.1,
+              boxShadow: "0px 0px 8px rgb(0, 128, 120)",
+            }}
+            transition={{ type: "spring", stiffness: 500 }}
+            className=" ml-32  mt-4 pl-20 md:pr-10 block
+           text-white font-semibold bg-gray-800  rounded  w-96"
+          >
+            <button>
+              <TbBracketsAngle className=" h-6" />
+            </button>
+            <p>Data Science</p>
+          </motion.p>
+        </section>
       </div>
     </div>
   );

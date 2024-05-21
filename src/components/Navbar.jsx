@@ -14,7 +14,7 @@ const [isSetMenu, setIsSetMenu] = React.useState(false);
         initial={{ y: -250 }}
         animate={{ y: -5 }}
         transition={{ type: "spring", stiffness: 200 }}
-        className="flex pl-60 shadow-lg fixed font-semibold bg-gray-900 text-white space-x-10 px-20 pt-5 pb-5   top-0 z-10 w-full"
+        className="lg:pl-20 flex pl-60 shadow-lg fixed font-semibold bg-gray-900 text-white space-x-10 px-20 pt-5 pb-5   top-0 z-10 w-full"
       >
 
         <img src={Bharat_logo} alt="Bharat logo" className="w-28 mr-96" />

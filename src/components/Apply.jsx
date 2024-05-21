@@ -118,7 +118,7 @@ const Apply = () => {
               boxShadow: "0px 0px 8px rgb(0, 128, 120)",
             }}
             transition={{ type: "spring", stiffness: 500 }}
-            className="bg-white text-gray-600 px-3 py-3 mt-4 mb-20 ml-30 rounded font-semibold cursor-pointer hover:bg-green-400 hover:text-white w-64"
+            className="bg-white text-gray-600 px-3 py-3  mt-4 mb-20 ml-30 rounded font-semibold cursor-pointer hover:bg-green-400 hover:text-white w-64"
           >
             <Link to="/signup">Full-Stack Web Development</Link>
             <button className="ml-20">

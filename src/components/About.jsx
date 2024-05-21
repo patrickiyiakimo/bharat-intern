@@ -13,11 +13,11 @@ const About = () => {
         <br />
         shape a better future for businesses and individuals alike.
       </p>
-      <div className="md:grid grid-cols-2   ">
+      <div className=" md:grid md:grid-cols-2   ">
         <p>
           <AboutText className="bg-green-400" />
         </p>
-        <img src={about_img} alt="about img" className="ml-10 md:ml-40 "/>
+        <img src={about_img} alt="about img" className="ml-10 md:ml-40 sm:ml-60"/>
       </div>
     </div>
   );
