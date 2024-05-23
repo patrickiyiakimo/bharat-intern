@@ -21,9 +21,6 @@ function App() {
           <Navbar />
         </div>
         <Switch>
-          <Route path="/hero">
-            <Hero />
-          </Route>
           <Route path="/aboutus">
             <AboutUs />
           </Route>
@@ -37,6 +34,9 @@ function App() {
             <SignUp />
           </Route>
           <Route exact path="/">
+            <div className="/hero">
+              <Hero />
+            </div>
             <div className="section">
               <Section />
             </div>
