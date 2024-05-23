@@ -24,7 +24,7 @@ const Navbar = () => {
           )}
         </button>
 
-        {/* Logo */}
+       
         <img src={Bharat_logo} alt="Bharat logo" className="w-28 mr-96" />
 
         {/* Desktop Menu */}
